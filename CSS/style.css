@@ -1,0 +1,177 @@
+            * {
+                font-family: 'Poppins', sans-serif;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: pink;
+                width: 1180px;
+            }
+            
+            hr {
+                border-style: groove;
+                border-color: rgb(143, 102, 48);
+            }
+            
+            .button {
+                font-family: 'Poppins', sans-serif;
+                text-transform: uppercase;
+                font-size: 35px;
+                width: 260px;
+                height: 65px;
+                border-radius: 75px;
+                line-height: 65px;
+                border: 3px solid #96005c;
+                display: block;
+                margin: 300px auto;
+                color: rgb(238, 130, 189);
+                position: relative;
+                overflow: hidden;
+                background: transparent;
+                transition: .3s;
+            }
+            
+            .button:before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: rgb(238, 130, 202);
+                top: -100%;
+                left: 0;
+                z-index: -1;
+                transition: .3s;
+            }
+            
+            .button:after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: rgb(238, 130, 197);
+                top: -100%;
+                left: 0;
+                z-index: -1;
+                transition: .3s;
+            }
+            
+            .button:hover {
+                color: rgb(64, 255, 47);
+            }
+            
+            .button:hover:before {
+                top: 0;
+            }
+            
+            .button:hover:after {
+                top: 0;
+            }
+            
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            /* header style part */
+            
+            .logo {
+                display: flex;
+            }
+            
+            .navigation {
+                display: flex;
+            }
+            
+            .navigation-ul {
+                display: flex;
+                list-style: none;
+                align-content: center;
+            }
+            
+            .navigation-items a {
+                text-decoration: none;
+                padding: 25px;
+            }
+            
+            .navigation-icons {
+                margin: 30px;
+                padding: 20px;
+            }
+            /*  secondsection styles */
+            
+            .SecondPart a :hover {
+                width: 300px;
+                color: white;
+            }
+            
+            .intro {
+                font-size: 2em;
+            }
+            
+            .SecondPart .containers {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            section .containers .section-article a {
+                text-decoration: none;
+            }
+            /* Third section styles */
+            
+            .ThirdPart .companylogo {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+            }
+            /* FouthPart css */
+            
+            .popularcollectionsheader {
+                text-align: center;
+            }
+            
+            .collections {
+                box-shadow: 10px 10px 5px #cce4e4;
+                border-radius: 500px;
+            }
+            
+            .collections-top {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-gap: 50px;
+            }
+            
+            .collection_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: stretch;
+            }
+            
+            #tri-img {
+                margin: 55px;
+            }
+            
+            .tri {
+                background-color: #f5e7fa;
+            }
+            
+            .see {
+                text-align: right;
+            }
+            
+            .see a {
+                text-decoration: none;
+            }
+            
+            .FifthPart {
+                margin-top: 100px;
+                display: flex;
+            }
+            
+            .FifthPart a {
+                text-decoration: none;
+            }
+            
+            .LastPart {
+                text-align: center;
+                background-color: rgb(75, 0, 130);
+            }
